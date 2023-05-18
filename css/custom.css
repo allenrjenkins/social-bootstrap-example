@@ -1,0 +1,113 @@
+body {
+    font-family: Open Sans;
+    background: #f1f1f1;
+}
+
+.navbar-default,
+.navbar-inverse, 
+.navbar-primary {
+    border-radius: 0px;  
+    border: none;
+}
+
+.navbar.navbar-inverse {
+    background: #e93100;  
+    border: none; 
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,.15); 
+}  
+
+.navbar.navbar-primary {
+    background: #fff;  
+    border: none; 
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,.15); 
+}  
+
+.navbar.navbar-primary .navbar-toggle { 
+    border: 1px solid #222;
+}  
+
+.navbar.navbar-primary .navbar-toggle .icon-bar {
+    background-color: #222;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, 
+.navbar-inverse .navbar-nav > li > a:hover {
+    background-color: rgba(0, 0, 0, 0.07); 
+}
+
+.navbar-inverse .navbar-nav > li > a, 
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:focus, 
+.navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.07); 
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff; 
+    font-weight: bold;
+}
+ 
+.border-menu-item {
+    border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+.border-menu-item:last-of-type {
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn,
+.form-control, 
+.input-group-addon, 
+.dropdown-menu {
+    border-radius: 0px;
+}
+
+.panel {
+    border-radius: 0px;
+    border: none; 
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+.panel .panel-heading { 
+    border-bottom: 3px solid #e93100;;
+    font-weight: bold;  
+    text-transform: uppercase;
+}
+
+.panel .panel-body .btn,
+.panel .panel-footer .btn {    
+    text-transform: uppercase;
+} 
+.panel.panel-default .panel-heading { 
+    background-color: #fff;
+}
+
+footer {
+    font-size: 12px;
+}
+
+footer .navbar-brand {
+    font-size: 13px; 
+    font-weight: bold;
+}
